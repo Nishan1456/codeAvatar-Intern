@@ -1,0 +1,117 @@
+.content {
+  width: 894px;
+  height: 1624px;
+  margin: 56px 0 0 513px;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 56px 48px;
+}
+.topFormSection {
+  display: grid;
+  width: 798px;
+  height: 72px;
+  gap: 8px;
+}
+.topFormSection h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 550;
+  color: #1d1d22;
+}
+.topFormSection p,
+.portion1 p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 450;
+  color: #636567;
+}
+.mainFormSection {
+  width: 798px;
+  height: 708px;
+  margin-top: 40px;
+}
+.input-group {
+  display: flex;
+  height: 66px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-field {
+  width: 387px;
+  height: 66px;
+}
+.input-field label {
+  width: 100%;
+  height: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #404040;
+}
+.input-field input,
+.input-field select {
+  margin-top: 10px;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #d7dadc;
+  padding: 12px 16px;
+}
+.input-grp {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.fileSection {
+  height: 262px;
+  width: 798px;
+  margin-top: 40px;
+}
+.portion1 {
+  display: grid;
+  height: 50px;
+  width: 100%;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+.portion1 h3 {
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 24px;
+  color: #1d1d22;
+}
+.portion2 {
+  display: grid;
+  place-items: center;
+  height: 188px;
+  width: 100%;
+  padding: 36px 32px;
+  border: 1px dashed #e5e7ea;
+}
+.portion2 img {
+  height: 52px;
+  width: 52px;
+}
+.portion2 .file {
+  height: 44px;
+  width: 734px;
+
+  margin: 20px 0 36px 0;
+}
+.file p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400px;
+  text-align: center;
+  color: #636567;
+}
+.required::after {
+  content: "*";
+  color: #ff3b30;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}

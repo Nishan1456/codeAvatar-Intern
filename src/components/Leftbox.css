@@ -1,0 +1,105 @@
+.box1 {
+  height: 976px;
+  width: 948px;
+  background-color: #696969;
+  background-image: url(../assets/mask.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.box1 .back {
+  position: relative;
+  width: 57px;
+  height: 21px;
+  top: 48px;
+  left: 56px;
+  cursor: pointer;
+}
+.box1 .back p {
+  width: 33px;
+  height: 21px;
+  font-size: 14px;
+  color: #e0e0e0;
+  font-weight: 400;
+  line-height: 21px;
+}
+.box1 .layout {
+  width: 788px;
+  height: 40px;
+  position: relative;
+  top: 123px;
+  left: 80px;
+}
+.box1 .layout pre {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #f9f9f9;
+}
+.box1 .block1,
+.box1 .block2,
+.box1 .block3 {
+  height: 236px;
+  width: 340px;
+
+  border: 1px;
+  background: radial-gradient(rgba(9, 0, 23, 0.4), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    rgba(248, 248, 248, 0.2),
+    rgba(102, 102, 102, 0.2)
+  );
+  /* border-image-slice:1 ; */
+  /* border-image-source: linear-gradient(rgba(248, 248, 248, 0.2),rgba(102, 102, 102, 0.2)); */
+  border-radius: 12px;
+  gap: 24px;
+  backdrop-filter: blur(42px);
+  padding: 24px 28px;
+}
+.box1 .block1 {
+  position: relative;
+  top: 220px;
+  left: 304px;
+}
+.box1 .block2 {
+  position: relative;
+  top: 275px;
+  left: 114px;
+}
+.box1 .block3 {
+  position: relative;
+  top: 40px;
+  left: 494px;
+}
+.block1 img,
+.block2 img,
+.block3 img {
+  height: 40px;
+  width: 50px;
+  border-radius: 15px;
+}
+.frame1 {
+  display: grid;
+  width: 237px;
+  height: 102px;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+.frame1 h4 {
+  color: #f9f9f9;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.frame1 p,
+.frame2 p {
+  color: #e0e0e0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.frame2 {
+  display: grid;
+  width: 284px;
+  height: 62px;
+  gap: 4px;
+}

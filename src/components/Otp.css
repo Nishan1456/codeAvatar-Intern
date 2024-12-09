@@ -1,0 +1,36 @@
+.otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 519px;
+  height: 52px;
+}
+
+.otp-inputs {
+  display: flex;
+  gap: 14px;
+}
+
+.otp-field {
+  display: grid;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.otp-field:focus {
+  outline: none;
+  border-color: #829482;
+}
+.otp-dash {
+  width: 24px;
+  height: 24px;
+  font-size: 50px;
+}

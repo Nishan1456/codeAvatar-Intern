@@ -1,0 +1,112 @@
+/* StepProgress.css */
+
+.step-progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.completed {
+  background-color: #34c759; /* Green for completed steps */
+}
+
+.active {
+  border: 3px solid #34c759;
+  background-color: #ffffff; /* Blue for the current active step */
+}
+
+.pending {
+  background-color: #d7dadc; /* Grey for pending steps */
+}
+
+.controls {
+  position: relative;
+  width: 798px;
+  height: 48px;
+  left: 561px;
+  bottom: 86px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 95px;
+  height: 48px;
+  padding: 10px 20px;
+  background-color: #e50101;
+  border: 1px solid #1d1d22;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #fff;
+  border: 1px solid #1d1d22;
+  cursor: not-allowed;
+  color: #1d1d22;
+}
+/* Add this to the line background */
+.line-background {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  width: 1059px;
+  background-color: #d7dadc; /* Light grey by default */
+  border-radius: 5px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.step {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  z-index: 2; /* Ensure steps are above the line */
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  width: 1059px;
+  background-color: #901313; /* Default line color */
+  z-index: 1;
+  transform: translateY(-50%);
+  transition: background-color 0.3s ease;
+}
+
+/* Define the active, completed, and pending states */
+.completed .line {
+  background-color: #4caf50; /* Green line */
+}
+
+.active .line {
+  background-color: rgb(169, 79, 79); /* Blue line */
+}
+
+.pending .line {
+  background-color: #d7dadc; /* Grey line */
+}
