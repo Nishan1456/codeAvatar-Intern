@@ -118,14 +118,14 @@ export default function MainForm() {
             </div>
 
             <div className="input-field">
-              <label htmlFor="lang" className="required">Language</label>
+              <label htmlFor="game" className="required">Game</label>
               <br />
               <select id="lang" name="lang">
-                <option value="javascript">JavaScript</option>
-                <option value="php">PHP</option>
-                <option value="java">Java</option>
-                <option value="golang">Golang</option>
-                <option value="python">Python</option>
+                <option value="pes">PES</option>
+                <option value="pubg">PUBG</option>
+                <option value="ff">Freefire</option>
+                <option value="counter">Counter Strike</option>
+                <option value="ninja">Ninja Turtles</option>
               </select>
             </div>
           </div>

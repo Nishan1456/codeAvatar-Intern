@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import SignUp from "./Pages/SignUp";
 import Form from "./Pages/Form";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
