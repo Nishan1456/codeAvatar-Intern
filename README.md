@@ -22,13 +22,13 @@ a.Mainform.js with css
 
          I have created the step progress that changes as we trigger the next and previous button
 
------------------------------------------****\*\*\*\*****-------------------------------------------
+-----------------------------------------\***\*\*\*\*\*\*\***-------------------------------------------
 
     Note:::::App.js contains the routing of signup and form pages
 
     I have tried my best to reflect my design as the provided UI/UX design
 
 
-    Github link:
+    Github link: https://github.com/Nishan1456/codeAvatar-Intern
 
-    Github live link:
+    Github live link: https://code-avatar-intern.vercel.app/
