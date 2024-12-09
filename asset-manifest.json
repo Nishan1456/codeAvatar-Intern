@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/codeAvatar-Intern/static/css/main.9067df4f.css",
+    "main.js": "/codeAvatar-Intern/static/js/main.69361c0a.js",
+    "static/js/453.cd7c0f4e.chunk.js": "/codeAvatar-Intern/static/js/453.cd7c0f4e.chunk.js",
+    "static/media/mask.png": "/codeAvatar-Intern/static/media/mask.d053af9855a387b3f18f.png",
+    "static/media/hongkong.png": "/codeAvatar-Intern/static/media/hongkong.d01e26e22ff5e1a8b83a.png",
+    "static/media/usa.png": "/codeAvatar-Intern/static/media/usa.98a7177e643879c43fea.png",
+    "static/media/singapore.png": "/codeAvatar-Intern/static/media/singapore.84000e1b5b74abb1453d.png",
+    "index.html": "/codeAvatar-Intern/index.html",
+    "main.9067df4f.css.map": "/codeAvatar-Intern/static/css/main.9067df4f.css.map",
+    "main.69361c0a.js.map": "/codeAvatar-Intern/static/js/main.69361c0a.js.map",
+    "453.cd7c0f4e.chunk.js.map": "/codeAvatar-Intern/static/js/453.cd7c0f4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9067df4f.css",
+    "static/js/main.69361c0a.js"
+  ]
+}
